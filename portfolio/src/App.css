@@ -1,0 +1,218 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+ 
+  }
+}
+
+.App-header {
+  background-color: #080808;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Container {
+  display: flex;
+  width: 80%;
+}
+
+.basic-navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.me-auto {
+  justify-content: space-evenly;
+}
+
+.me-auto ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.me-auto li {
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
+.text-holder {
+  margin-left: 5rem;
+  width: 35rem;
+}
+
+.text-holder h2{
+  font-size: 2.5em;
+}
+.text-holder span{
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+.first-box {
+  margin-top: 5rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-button{
+  font-weight: bold;
+  margin-top: 4rem;
+  color: white;
+  width: 6rem;
+  height: 3rem;
+  background-color: #61dafb;
+  border-radius: 5px;
+  border: none;
+}
+
+.first-button:hover{
+ background-color: #1ca3c9;
+ transition: s;
+}
+.second-button{
+  margin-left: 2rem;
+  font-weight: bold;
+  color: white;
+  width: 6rem;
+  height: 3rem;
+  background-color: #1c1c1c;
+  border-radius: 5px;
+  border: none;
+}
+
+.second-button:hover{
+  background-color: #0f0f0f;
+}
+
+.projects{
+  width: 85%;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-bottom: 10rem;
+}
+
+.flexbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.holder:hover{
+  transform: scale(1.03);
+  z-index: 2;
+}
+
+.holder {
+  width: 35rem;
+  height: 30rem;
+}
+
+.project-image {
+  object-fit: cover;
+  width: 35rem;
+  height: 24rem;
+  border-radius: 10px;
+}
+
+.second-box{
+  width: 100%;
+}
+
+.slider{
+  display: flex;
+  overflow-x: auto;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.slider::-webkit-scrollbar {
+  width: 0%;
+}
+
+.card{
+  margin-left: 2rem;
+  height: 32.5rem;
+  width: 20;
+}
+
+.card:hover{
+  transform: scale(1.03);
+  z-index: 2;
+}
+
+.works{
+  object-fit: cover;
+  width: 18rem;
+  height: 25rem;
+ border-radius: 10px;
+}
+
+.border{
+  width: 100%;
+  border: 1px solid;
+}
+
+.lastbox{
+  width: 100%;
+}
+
+.link1{
+  margin-top: 1rem;
+  width: 45rem;
+  height: 6rem;
+  text-align: left;
+  border-radius: 10px;
+  border: none;
+  margin-left: 27rem;
+  background-color: #1c1c1c;
+}
+
+.link1 h2{
+  margin-left: 1rem;
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+.link1 h3{
+  margin-left: 1rem;
+  font-size: 1.3em;
+  font-weight: bolder;
+  color: #585757;
+}
+
+.name{
+  width: 100%;
+  text-align: center;
+}
+
+.name h2{
+  margin-top: 8rem;
+}
+
+
