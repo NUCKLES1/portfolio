@@ -5,6 +5,7 @@ export const NavBar = () => {
 
   return (
     <div className="Container">
+      <div className="nav">
       <h1 className="logo">Nuckles</h1>
       <div aria-control="basic-navbar-nav">
         <div className="basic-navbar">
@@ -14,16 +15,12 @@ export const NavBar = () => {
             <li><a href="skills">Skills</a></li>
             <li><a href="projects">Projects</a></li>
             </ul>
-          </div>
-
-          <span className="navbar-text">
-            <div className="social-icon">
-            </div>
+          </div>    
             <button className="vvd" onClick={() => console.log("connect")}>
               <span>Let's Connect</span>
             </button>
-          </span>
         </div>
+      </div>
       </div>
     </div>
   );

@@ -1,15 +1,16 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { NavBar } from "./component/NavBar";
+import Footer from "./component/Footer";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <header className="App-header">
+      <div className="App-header">
         <div className="first-box">
           <div className="text-holder">
-            <h2>Hi i am</h2>
+            <h2>Hi i'am</h2>
             <span>Nuckles Daan</span>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
@@ -21,7 +22,9 @@ function App() {
             <button className="first-button">Resume</button>
             <button className="second-button">Reach Out</button>
           </div>
-          <img src={logo} className="App-logo" alt="logo" />
+          <div className="log">
+          <img src="me.jpg" className="App-logo" alt="logo" />
+          </div>
         </div>
         <div className="projects">
           <h2>Featured Works</h2>
@@ -32,16 +35,16 @@ function App() {
               <img className="project-image" src="algocrib.png" alt="" />
             </div>
             <div className="holder">
-              <p>Algocrib</p>
-              <p>Software Solution Website</p>
-              <img className="project-image" src="algocrib.png" alt="" />
+              <p>Fooduu</p>
+              <p>Food Website</p>
+              <img className="project-image" src="fooduu.png" alt="" />
             </div>
           </div>
           <div className="flexbar">
             <div className="holder">
-              <p>Algocrib</p>
-              <p>Software Solution Website</p>
-              <img className="project-image" src="algocrib.png" alt="" />
+              <p>Cheqq</p>
+              <p>Cheqq coming soon screen</p>
+              <img className="project-image" src="cheqq.png" alt="" />
             </div>
             <div className="holder">
               <p>Algocrib</p>
@@ -78,23 +81,21 @@ function App() {
           <div className="lastbox">
             <h1>Reach Out!</h1>
             <div className="layout">
-            <div className="linklayout">
-            <button className="link1">
-             <h2>danyxcharge@gmail.com</h2>
-             <h3>E-mail</h3>
-            </button>
-            <button className="link1">
-            <h2>Nuckles Daan</h2>
-             <h3>Linkedin</h3>
-            </button>
-            </div>
-            <div className="name">
-              <h2>Nuckles</h2>
-            </div>
+              <div className="linklayout">
+                <button className="link1">
+                  <h2>danyxcharge@gmail.com</h2>
+                  <h3>E-mail</h3>
+                </button>
+                <button className="link1">
+                  <h2>Nuckles Daan</h2>
+                  <h3>Linkedin</h3>
+                </button>
+              </div>
             </div>
           </div>
+          <Footer />
         </div>
-      </header>
+        </div>
     </div>
   );
 }

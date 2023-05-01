@@ -3,15 +3,13 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 10rem;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
- 
-  }
+  object-fit: cover;
 }
 
 .App-header {
@@ -27,21 +25,24 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Container {
+  background-color: #080808;
+  width: 100%;
 }
 
-.Container {
+.nav {
+  margin-left: 5rem;
+  justify-content: space-between;
   display: flex;
-  width: 80%;
+  width: 85%;
+}
+
+.logo {
+  color: azure;
 }
 
 .basic-navbar {
+  background-color: #080808;
   display: flex;
   justify-content: space-evenly;
   margin-top: 2rem;
@@ -53,12 +54,22 @@
 
 .me-auto ul {
   display: flex;
+  text-decoration: none;
   justify-content: space-between;
+  text-decoration-style: none;
 }
 
 .me-auto li {
+  text-decoration-style: none;
   text-decoration: none;
   margin-left: 2rem;
+  color: azure;
+}
+
+.me-auto li a{
+  color: azure;
+  text-decoration-style: none;
+  text-decoration: none;
 }
 
 .text-holder {
@@ -66,12 +77,29 @@
   width: 35rem;
 }
 
-.text-holder h2{
-  font-size: 2.5em;
+.text-holder h2 {
+  font-size: 2em;
+  font-family: DM sans;
 }
-.text-holder span{
-  font-size: 3em;
+
+.text-holder span {
+  font-size: 3.5em;
   font-weight: bolder;
+}
+
+.text-holder p{
+  font-size: 1em;
+  color: #585757;
+  font-family: DM sans;
+}
+
+.vvd {
+  background-color: #61dafb;
+  height: 2.5rem;
+  width: 8rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin-left: 3rem;
 }
 
 .first-box {
@@ -81,7 +109,7 @@
   justify-content: space-between;
 }
 
-.first-button{
+.first-button {
   font-weight: bold;
   margin-top: 4rem;
   color: white;
@@ -92,11 +120,12 @@
   border: none;
 }
 
-.first-button:hover{
- background-color: #1ca3c9;
- transition: s;
+.first-button:hover {
+  background-color: #1ca3c9;
+  transition: s;
 }
-.second-button{
+
+.second-button {
   margin-left: 2rem;
   font-weight: bold;
   color: white;
@@ -107,11 +136,11 @@
   border: none;
 }
 
-.second-button:hover{
+.second-button:hover {
   background-color: #0f0f0f;
 }
 
-.projects{
+.projects {
   width: 85%;
   margin-top: 5rem;
   margin-left: 5rem;
@@ -123,7 +152,8 @@
   justify-content: space-between;
 }
 
-.holder:hover{
+.holder:hover {
+  transition: 1s;
   transform: scale(1.03);
   z-index: 2;
 }
@@ -140,11 +170,11 @@
   border-radius: 10px;
 }
 
-.second-box{
+.second-box {
   width: 100%;
 }
 
-.slider{
+.slider {
   display: flex;
   overflow-x: auto;
   justify-content: space-between;
@@ -155,64 +185,360 @@
   width: 0%;
 }
 
-.card{
+.card {
   margin-left: 2rem;
   height: 32.5rem;
   width: 20;
 }
 
-.card:hover{
+.card:hover {
+  transition: 1s;
   transform: scale(1.03);
   z-index: 2;
 }
 
-.works{
+.works {
   object-fit: cover;
   width: 18rem;
   height: 25rem;
- border-radius: 10px;
+  border-radius: 10px;
 }
 
-.border{
+.border {
   width: 100%;
   border: 1px solid;
 }
 
-.lastbox{
+.lastbox {
   width: 100%;
 }
 
-.link1{
+.linklayout{
+  margin-left: 27rem;
+}
+
+.link1 {
   margin-top: 1rem;
   width: 45rem;
   height: 6rem;
   text-align: left;
   border-radius: 10px;
   border: none;
-  margin-left: 27rem;
   background-color: #1c1c1c;
 }
 
-.link1 h2{
+.link1 h2 {
   margin-left: 1rem;
   font-size: 1.5em;
   font-weight: bolder;
   color: whitesmoke;
 }
-.link1 h3{
+
+.link1 h3 {
   margin-left: 1rem;
   font-size: 1.3em;
   font-weight: bolder;
   color: #585757;
 }
 
-.name{
+.name {
   width: 100%;
   text-align: center;
+  margin-bottom: 6rem;
 }
 
-.name h2{
+.name h2 {
   margin-top: 8rem;
 }
 
+.footer {
+  justify-content: center;
+}
 
+.footer-content {
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  border: 1px solid;
+  border-color: #1c1c1c;
+  margin-top: 1rem;
+}
+
+.about {
+  margin-left: 45%;
+  display: flex;
+  justify-content: space-between;
+  width: 8rem;
+  color: #585757;
+}
+
+.copyright {
+  color: #585757;
+}
+
+@media screen and (max-width: 600px) {
+  .App-header {
+    background-color: #080808;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .Container {
+    background-color: #080808;
+    width: 100%;
+  }
+  
+  .nav {
+    margin-left: 2rem;
+    justify-content: space-between;
+    display: flex;
+    width: 85%;
+  }
+  
+  .logo {
+    color: azure;
+  }
+  
+  .basic-navbar {
+    background-color: aquamarine;
+    height: 8rem;
+    display: none;
+    justify-content: flex-start;
+    margin-top: 2rem;
+  }
+  
+  .me-auto {
+    justify-content:flex-start;
+    display: flex;
+  }
+  
+  .me-auto ul {
+    position: fixed;
+    display: block;
+    text-decoration: none;
+    justify-content: space-between;
+    text-decoration-style: none;
+  }
+  
+  .me-auto li {
+    text-decoration-style: none;
+    text-decoration: none;
+    margin-left: 2rem;
+    color: azure;
+  }
+  
+  .me-auto li a{
+    color: azure;
+    text-decoration-style: none;
+    text-decoration: none;
+  }
+  
+  .text-holder {
+    margin-left: 1rem;
+    width: 16rem;
+  }
+
+  .log{
+    position: absolute;
+    top: 34rem;
+  }
+  
+  .text-holder h2 {
+    font-size: 1em;
+  }
+  
+  .text-holder span {
+    font-size: 2.5em;
+    font-weight: bolder;
+  }
+  
+  .text-holder p{
+    color: #585757;
+  }
+  
+  .vvd {
+    background-color: #61dafb;
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-left: 1rem;
+  }
+  
+  .first-box {
+    display: block;
+    margin-top: 2rem;
+    display: flex;
+  }
+  
+  .first-button {
+    font-weight: bold;
+    margin-top: 2rem;
+    color: white;
+    width: 6rem;
+    height: 3rem;
+    background-color: #61dafb;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .first-button:hover {
+    background-color: #1ca3c9;
+    transition: s;
+  }
+  
+  .second-button {
+    margin-left: 1rem;
+    font-weight: bold;
+    color: white;
+    width: 6rem;
+    height: 3rem;
+    background-color: #1c1c1c;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .second-button:hover {
+    background-color: #0f0f0f;
+  }
+  
+  .projects {
+    width: 85%;
+    margin-top: 30rem;
+    margin-left: 1rem;
+    margin-bottom: 10rem;
+  }
+  
+  .flexbar {
+    display: block;
+    justify-content: space-between;
+  }
+  
+  .holder:hover {
+    transition: 1s;
+    transform: scale(1.03);
+    z-index: 2;
+  }
+  
+  .holder {
+    width: 35rem;
+    height: 30rem;
+  }
+  
+  .project-image {
+    object-fit: cover;
+    width: 24rem;
+    height: 24rem;
+    border-radius: 10px;
+  }
+
+  .linklayout{
+   margin-left: 0.5rem;
+  }
+  
+  .card {
+    margin-right: 2rem;
+    height: 28rem;
+    width: 15rem;
+  }
+  
+  .card:hover {
+    transition: 1s;
+    transform: scale(1.03);
+    z-index: 2;
+  }
+  
+  .works {
+    object-fit: cover;
+    width: 16rem;
+    height: 20rem;
+    border-radius: 10px;
+  }
+  
+  .border {
+    width: 100%;
+    border: 1px solid;
+  }
+  
+  .lastbox {
+    width: 50%;
+    display: block;
+  }
+  
+  .link1 {
+    margin-top: 1rem;
+    width: 23rem;
+    height: 6rem;
+    text-align: left;
+    border-radius: 10px;
+    border: none;
+    background-color: #1c1c1c;
+  }
+  
+  .link1 h2 {
+    margin-left: 1rem;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: whitesmoke;
+  }
+  
+  .link1 h3 {
+    margin-left: 1rem;
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: #585757;
+  }
+  
+  .name {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+  
+  .name h2 {
+    margin-top: 8rem;
+  }
+  
+  .footer {
+    width: 100%;
+    margin-left: 1rem;
+    justify-content: center;
+  }
+  
+  .footer-content {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .line {
+    border: 1px solid;
+    border-color: #1c1c1c;
+    margin-top: 1rem;
+  }
+  
+  .about {
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-between;
+    width: 8rem;
+    color: #585757;
+  }
+  
+  .copyright {
+    color: #585757;
+  }
+
+  *{
+    margin: none;
+    padding: none;
+  }
+}
