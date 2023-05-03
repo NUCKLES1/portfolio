@@ -1,7 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { NavBar } from "./component/NavBar";
 import Footer from "./component/Footer";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
             <button className="second-button">Reach Out</button>
           </div>
           <div className="log">
-          <img src="me.jpg" className="App-logo" alt="logo" />
+            <img src="face.png" className="App-logo" alt="logo" />
           </div>
         </div>
         <div className="projects">
@@ -32,7 +32,9 @@ function App() {
             <div className="holder">
               <p>Algocrib</p>
               <p>Software Solution Website</p>
-              <img className="project-image" src="algocrib.png" alt="" />
+              <Link to="https://www.algocrib.com/">
+                <img className="project-image" src="algocrib.png" alt="" />
+              </Link>
             </div>
             <div className="holder">
               <p>Fooduu</p>
@@ -77,25 +79,9 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="border"></div>
-          <div className="lastbox">
-            <h1>Reach Out!</h1>
-            <div className="layout">
-              <div className="linklayout">
-                <button className="link1">
-                  <h2>danyxcharge@gmail.com</h2>
-                  <h3>E-mail</h3>
-                </button>
-                <button className="link1">
-                  <h2>Nuckles Daan</h2>
-                  <h3>Linkedin</h3>
-                </button>
-              </div>
-            </div>
-          </div>
-          <Footer />
         </div>
-        </div>
+        <Footer />
+      </div>
     </div>
   );
 }
