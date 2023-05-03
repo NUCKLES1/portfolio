@@ -32,10 +32,10 @@
 }
 
 .nav {
-  margin-left: 7rem;
+  margin-left: 5rem;
   justify-content: space-between;
   display: flex;
-  width: 85%;
+  width: 90%;
   border: none;
 }
 
@@ -52,7 +52,8 @@
 .basic-navbar {
   background-color: #080808;
   display: flex;
-  justify-content: space-evenly;
+  width: 65%;
+  justify-content: space-between;
   margin-top: 1rem;
 }
 
@@ -71,12 +72,18 @@
   text-align: center;
   list-style-type: none;
   text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bolder;
   margin-left: 2rem;
-  color: azure;
+  color: whitesmoke;
   height: 2rem;
   font-style: 'Roboto';
   width: 5rem;
   border-radius: 5px;
+}
+
+.me-auto ul li::after{
+  background-color: yellow;
 }
 
 .me-auto ul li:hover {
@@ -116,12 +123,41 @@
 }
 
 .vvd {
-  background-color: #61dafb;
+  background-color: #26abff;
   height: 2.5rem;
-  width: 8rem;
+  width: 6rem;
   border-radius: 0.5rem;
   border: none;
-  margin-left: 3rem;
+  margin-left: 1rem;
+}
+
+.vvd:hover{
+  background-color: #0e87d3;
+}
+.resume:hover{
+  background-color: #0f0f0f;
+}
+
+.resume {
+  background-color: #1c1c1c;
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin-left: 2rem;
+}
+
+.vvd span{
+  font-size: 1.1em;
+  color: whitesmoke;
+  font-style: 'Roboto';
+  font-weight: bolder;
+}
+.resume span{
+  font-size: 1.1em;
+  color: whitesmoke;
+  font-style: 'Roboto';
+  font-weight: bolder;
 }
 
 .first-box {
@@ -137,14 +173,13 @@
   color: white;
   width: 6rem;
   height: 3rem;
-  background-color: #61dafb;
+  background-color: #26abff;
   border-radius: 5px;
   border: none;
 }
 
 .first-button:hover {
-  background-color: #1ca3c9;
-  transition: s;
+  background-color: #0e87d3;
 }
 
 .second-button {

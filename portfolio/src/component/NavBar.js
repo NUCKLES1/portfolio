@@ -17,14 +17,16 @@ export const NavBar = () => {
                 <li>
                   <Link to="About">About</Link>
                 </li>
-                <li>
-                  <Link to="">projects</Link>
-                </li>
               </ul>
             </div>
-            <button className="vvd" onClick={() => console.log("connect")}>
-              <span>Let's Connect</span>
+            <div>
+            <button className="resume" onClick={() => console.log("connect")}>
+              <span>Resume</span>
             </button>
+            <button className="vvd" onClick={() => console.log("connect")}>
+              <span>Reach Out</span>
+            </button>
+            </div>
           </div>
       </div>
       <img className="menu" src="menu.png" alt="" />
