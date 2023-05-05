@@ -2,7 +2,7 @@
   display: block;
   background-color: #080808;
   width: 100%;
-  height: 100%;
+  height: 160rem;
 }
 
 .content {
@@ -26,8 +26,9 @@
 
 .about-field p{
  color: whitesmoke;
+ font-style: 'roboto';
  margin-bottom: 2rem;
- margin-left: 2rem;
+ margin-left: 1rem;
 }
 
 .continue {

@@ -31,26 +31,28 @@ function App() {
           <div className="flexbar">
             <div className="holder">
               <p>Algocrib</p>
-              <p>Software Solution Website</p>
+              <span>Software Solution Website</span>
               <Link to="https://www.algocrib.com/">
                 <img className="project-image" src="algocrib.png" alt="" />
               </Link>
             </div>
             <div className="holder">
-              <p>Fooduu</p>
-              <p>Food Website</p>
+              <div>
+            <p>Fooduu</p>
+              <span>Food website</span>
+              </div>
               <img className="project-image" src="fooduu.png" alt="" />
             </div>
           </div>
           <div className="flexbar">
             <div className="holder">
               <p>Cheqq</p>
-              <p>Cheqq coming soon screen</p>
+              <span>Cheqq coming soon screen</span>
               <img className="project-image" src="cheqq.png" alt="" />
             </div>
             <div className="holder">
               <p>Algocrib</p>
-              <p>Software Solution Website</p>
+              <span>Software Solution Website</span>
               <img className="project-image" src="algocrib.png" alt="" />
             </div>
           </div>
