@@ -51,9 +51,9 @@ function App() {
               <img className="project-image" src="cheqq.png" alt="" />
             </div>
             <div className="holder">
-              <p>Algocrib</p>
-              <span>Software Solution Website</span>
-              <img className="project-image" src="algocrib.png" alt="" />
+              <p>Desc Community</p>
+              <span>Tech Community Platform</span>
+              <img className="project-image" src="desc.png" alt="" />
             </div>
           </div>
           <div className="second-box">

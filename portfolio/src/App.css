@@ -247,6 +247,7 @@
 
 .second-box {
   width: 100%;
+  margin-top: 5rem;
 }
 
 .slider {
@@ -439,6 +440,7 @@
 
   .logo {
     color: azure;
+    margin-left: 0.3rem;
   }
 
   .basic-navbar {
@@ -521,6 +523,7 @@
     display: block;
     margin-top: 2rem;
     display: flex;
+    margin-left: 0.2rem;
   }
 
   .first-button {
@@ -592,6 +595,11 @@
     width: 100%;
     height: 24rem;
     border-radius: 10px;
+  }
+
+  .second-box {
+    width: 100%;
+    margin-top: 0.5rem;
   }
 
   .linklayout {

@@ -7,7 +7,7 @@ export const About = () => {
   return (
     <div className="container-div">
       <Navbar />
-      <div className="content">
+      <div className="content-about">
         <div className="about-field">
           <p>About Me</p>
         </div>
