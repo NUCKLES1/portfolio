@@ -19,7 +19,7 @@ function App() {
             <p>
               Edit <code>src/App.js</code> and save to reload.
             </p>
-            <button className="first-button">Resume</button>
+             <Link to="/Resume"><button className="first-button">Resume</button></Link>
             <button className="second-button">Reach Out</button>
           </div>
           <div className="log">
