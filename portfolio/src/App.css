@@ -32,7 +32,7 @@
 }
 
 .nav {
-  margin-left: 5rem;
+  margin-left: 3rem;
   justify-content: space-between;
   display: flex;
   width: 90%;
@@ -83,7 +83,7 @@
   border-radius: 5px;
 }
 
-.me-auto ul li::after{
+.me-auto ul li::after {
   background-color: yellow;
 }
 
@@ -132,11 +132,11 @@
   margin-left: 1rem;
 }
 
-.vvd:hover{
+.vvd:hover {
   background-color: #0e87d3;
 }
 
-.resume:hover{
+.resume:hover {
   background-color: #0f0f0f;
 }
 
@@ -149,13 +149,14 @@
   margin-left: 2rem;
 }
 
-.vvd span{
+.vvd span {
   font-size: 1.1em;
   color: whitesmoke;
   font-style: 'Roboto';
   font-weight: bolder;
 }
-.resume span{
+
+.resume span {
   font-size: 1.1em;
   color: whitesmoke;
   font-style: 'Roboto';
@@ -207,7 +208,7 @@
   margin-bottom: 4rem;
 }
 
-.projects h2{
+.projects h2 {
   margin-left: 1rem;
 }
 
@@ -227,11 +228,11 @@
   height: 30rem;
 }
 
-.holder span{
+.holder span {
   font-style: 'Roboto';
- }
+}
 
-.holder p{
+.holder p {
   font-weight: bold;
   font-size: 1.2em;
   text-decoration: none;
@@ -288,6 +289,7 @@
 
 .holding {
   width: 85%;
+  height: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -301,7 +303,7 @@
   margin-left: 32rem;
 }
 
-.link1:hover{
+.link1:hover {
   transform: translateY(-8px);
   transition: 0.3s;
 }
@@ -351,7 +353,7 @@
   margin-top: 8rem;
   text-align: center;
   margin-left: 20%;
-  color:  rgb(212, 209, 209);
+  color: rgb(212, 209, 209);
 }
 
 .footer {
@@ -390,13 +392,13 @@
   justify-content: space-between;
 }
 
-.socials{
+.socials {
   justify-content: space-evenly;
   margin-top: 1rem;
   width: 9rem;
 }
 
-.media{
+.media {
   margin-left: 0.6rem;
   padding: 0.7rem;
   width: 1rem;
@@ -415,7 +417,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     color: white;
   }
 
@@ -606,6 +607,14 @@
     margin-left: 0.5rem;
   }
 
+  .holding {
+    width: 100%;
+    height: 50rem;
+    background-color: #080808;
+    justify-content: center;
+    align-items: center;
+  }
+
   .card {
     margin-right: 1.1rem;
     height: 25rem;
@@ -643,7 +652,7 @@
     margin-left: 0.6rem;
   }
 
-  .lastbox h1{
+  .lastbox h1 {
     margin-left: 1rem;
   }
 
@@ -678,7 +687,7 @@
     margin-bottom: 1rem;
   }
 
-  .name span{
+  .name span {
     margin-top: 8rem;
     font-style: 'Roboto';
     font-size: 2em;
@@ -715,8 +724,8 @@
     color: #585757;
   }
 
-  .about h5{
- margin-left: 0.5rem;
+  .about h5 {
+    margin-left: 0.5rem;
   }
 
   .copyright {
@@ -729,9 +738,9 @@
     margin-left: 0%;
   }
 
-  .socials{
-  width: 100%;
-  justify-content: center;
+  .socials {
+    width: 100%;
+    justify-content: center;
   }
 
 }

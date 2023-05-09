@@ -6,28 +6,30 @@ export const NavBar = () => {
     <div className="Container">
       <div className="nav">
         <div className="navi">
-          <h1 className="logo">Nuckles</h1>
+          <h1 className="logo">
+            <img className="logo" src="verified.png" alt="" /> Nuckles
+          </h1>
+        </div>
+        <div className="basic-navbar">
+          <div className="me-auto">
+            <ul>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="About">About</Link>
+              </li>
+            </ul>
           </div>
-          <div className="basic-navbar">
-            <div className="me-auto">
-              <ul>
-                <li>
-                  <Link to="/">Home</Link>
-                </li>
-                <li>
-                  <Link to="About">About</Link>
-                </li>
-              </ul>
-            </div>
-            <div>
+          <div>
             <button className="resume" onClick={() => console.log("connect")}>
               <span>Resume</span>
             </button>
             <button className="vvd" onClick={() => console.log("connect")}>
               <span>Reach Out</span>
             </button>
-            </div>
           </div>
+        </div>
       </div>
       <img className="menu" src="menu.png" alt="" />
     </div>
